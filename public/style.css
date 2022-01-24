@@ -1,0 +1,39 @@
+body{
+    padding: 5 px;
+    background-color: #918868;
+    color: white;
+    text-align: center;
+}
+
+.card{
+    padding: 5px;
+    margin: 20px;
+    background-color:#CBD081;
+    text-align: left;
+}
+
+#addModal{
+    color: black;
+}
+.card-body{
+    color:#D2E59E;
+    padding: 2rem;
+    margin: 10px;
+}
+
+#title{
+    size: 3rem;
+    text-decoration-style: double;
+    color: white;
+}
+
+#navbar-custom{
+    color: #523A34;
+}
+
+.Heading,#navbar-custom{
+    padding: 30 px;
+    margin: 10 px;
+    background-color: #CBD081;
+    color: white;
+}
