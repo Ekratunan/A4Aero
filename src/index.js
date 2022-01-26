@@ -4,8 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import App from './App.js';
 
 ReactDOM.render(
-  <div className='App Container'>
-    <h1 className='h1 bg-primary'>A4 Aero</h1>
+  <div className='App Container' id='title'>
     <App />
   </div>,
   document.getElementById('root')

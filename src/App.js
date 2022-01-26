@@ -8,19 +8,35 @@ function App() {
         
         <div className='App container'>
             <BrowserRouter>
-            <h4 className='d-flex justify-content-center m-3'>
-               Welcome to A4 Aero
-            </h4>
-
-            <nav className='navbar navbar-expand-sm navbar-dark' id='navbar-custom'>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" id= 'navig'>
+                    <h5 class="navbar-brand">A4 Aero</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <NavLink className= "nav-link" to= "/">Home</NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink className= "nav-link" to= "/business">Business</NavLink>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            
+            
+            
+            {/* <nav className='navbar navbar-expand-lg navbar-light bg-light' id='navbar-custom'>
+            <h1 className='navbar-brand'>A4 Aero</h1>
                 <ul className='navbar-nav'>
                     <li>
-                        <NavLink className= "btn btn-light btn-outline-primary" to= "/">Home</NavLink>
-                        <NavLink className= "btn btn-light btn-outline-primary" to= "/business">Business</NavLink>
+                        <NavLink className= "nav-item" to= "/">Home</NavLink>
+                        <NavLink className= "nav-item" to= "/business">Business</NavLink>
                     </li>
                 </ul>
 
-            </nav>
+            </nav> */}
 
             <Routes>
                 <Route path= '/' element= {<Home/>}/>

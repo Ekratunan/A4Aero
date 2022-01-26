@@ -1,6 +1,6 @@
 body{
     padding: 5 px;
-    background-color: #918868;
+    background-color: #110D1C;
     color: white;
     text-align: center;
 }
@@ -8,7 +8,7 @@ body{
 .card{
     padding: 5px;
     margin: 20px;
-    background-color:#CBD081;
+    background-color:whitesmoke;
     text-align: left;
 }
 
@@ -27,13 +27,13 @@ body{
     color: white;
 }
 
-#navbar-custom{
-    color: #523A34;
+#navig{
+    padding: 1rem;
 }
 
-.Heading,#navbar-custom{
-    padding: 30 px;
-    margin: 10 px;
-    background-color: #CBD081;
-    color: white;
+.Header{
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    background-color: whitesmoke;
+    color: #262626;
 }
